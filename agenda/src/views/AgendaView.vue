@@ -85,7 +85,7 @@ export default {
             contactos: [
                {"ID":1,"name":"Gibbs Carlson","email":"johnbonachon@myopium.com","address":"302 Montauk Avenue","phone":"+1 (833) 490-3903","country":"Turkmenistan","city":"Strong"},
                {"ID":2,"name":"Landry Chambers","email":"landrychambers@myopium.com","address":"517 Nolans Lane","phone":"+1 (968) 595-3406","country":"Iraq","city":"Lisco"},
-               {"ID":3,"name":"Lakisha Mccullough","email":"MccullougLakishaTESTfilter@myopium.com","address":"651 Conover Street","phone":"+1 (974) 415-2100","country":"East Timor","city":"Eagletown"},
+               {"ID":3,"name":"Lakisha Mccullough","email":"MccullougLakisha@myopium.com","address":"651 Conover Street","phone":"+1 (974) 415-2100","country":"East Timor","city":"Eagletown"},
                {"ID":4,"name":"Burgess Cote","email":"burgesscote@myopium.com","address":"501 Anthony Street","phone":"+1 (962) 479-3192","country":"Bolivia","city":"Wakarusa"},
                {"ID":5,"name":"Palmer Drake","email":"palmerdrake@myopium.com","address":"131 Jefferson Avenue","phone":"+1 (968) 466-3449","country":"Taiwan","city":"Neibert"},
                {"ID":6,"name":"Franks Justice","email":"franksjustice@myopium.com","address":"120 Prospect Place","phone":"+1 (860) 598-3110","country":"Jordan","city":"Richford"},
