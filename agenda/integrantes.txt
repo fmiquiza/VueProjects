@@ -6,6 +6,8 @@ Practica 1 Vue3
 ### Pasos para iniciar el proyecto
  1. Clonar el repositorio en tu computadora.
     git clone https://github.com/fmiquiza/VueProjects.git
+    - Ingresar al repositorio clonado:
+    cd VueProjects
     - Ingresar al folder "agenda":
     cd agenda
  2. Instalar las dependencias con npm install.
