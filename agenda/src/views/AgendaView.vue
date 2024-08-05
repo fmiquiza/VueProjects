@@ -83,10 +83,16 @@ export default {
             },  
             indexParaEditar:null, 
             contactos: [
-               {"ID":1,"name":"Gibbs Carlson","email":"johnbonachonTESTfilter@myopium.com","address":"302 Montauk Avenue","phone":"+1 (833) 490-3903","country":"Turkmenistan","city":"Strong"},
+               {"ID":1,"name":"Gibbs Carlson","email":"johnbonachon@myopium.com","address":"302 Montauk Avenue","phone":"+1 (833) 490-3903","country":"Turkmenistan","city":"Strong"},
                {"ID":2,"name":"Landry Chambers","email":"landrychambers@myopium.com","address":"517 Nolans Lane","phone":"+1 (968) 595-3406","country":"Iraq","city":"Lisco"},
                {"ID":3,"name":"Lakisha Mccullough","email":"MccullougLakishaTESTfilter@myopium.com","address":"651 Conover Street","phone":"+1 (974) 415-2100","country":"East Timor","city":"Eagletown"},
                {"ID":4,"name":"Burgess Cote","email":"burgesscote@myopium.com","address":"501 Anthony Street","phone":"+1 (962) 479-3192","country":"Bolivia","city":"Wakarusa"},
+               {"ID":5,"name":"Palmer Drake","email":"palmerdrake@myopium.com","address":"131 Jefferson Avenue","phone":"+1 (968) 466-3449","country":"Taiwan","city":"Neibert"},
+               {"ID":6,"name":"Franks Justice","email":"franksjustice@myopium.com","address":"120 Prospect Place","phone":"+1 (860) 598-3110","country":"Jordan","city":"Richford"},
+               {"ID":7,"name":"Coleen Mckenzie","email":"coleenmckenzie@myopium.com","address":"944 Plaza Street","phone":"+1 (871) 563-3741","country":"Sudan","city":"Klagetoh"},
+               {"ID":8,"name":"Fuentes Stuart","email":"fuentesstuart@myopium.com","address":"215 Alice Court","phone":"+1 (906) 555-2939","country":"Tuvalu","city":"Outlook"},
+               {"ID":9,"name":"Dollie Kirby","email":"dolliekirby@myopium.com","address":"873 Fountain Avenue","phone":"+1 (923) 572-3389","country":"Tajikistan","city":"Crayne"},
+               {"ID":10,"name":"Kristi Dunlap","email":"kristidunlap@myopium.com","address":"431 Cedar Street","phone":"+1 (961) 542-3448","country":"Hong Kong","city":"Montura"},
             ]
         }
     },
