@@ -33,3 +33,21 @@ Practica 1 Vue3
         http://localhost:8080/agenda
 
 
+P.d.: Para generar más contactos para la BASE DE DATOS, puede utilizar el recurso:
+    - https://json-generator.com/
+    
+    Con la siguiente estructura:
+    [
+        '{{repeat(1, 100)}}',
+        {
+            ID: '{{index() +1 }}',
+            name: '{{firstName()}} {{surname()}}',
+            email: '{{email()}}',
+            address: '{{integer(100, 999)}} {{street()}}',
+            phone: '+1 {{phone()}}',
+            country: '{{country()}}',
+            city: '{{city()}}'
+        }
+    ]
+
+    Y presionar el botón GENERATE
