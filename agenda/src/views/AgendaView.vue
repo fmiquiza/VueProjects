@@ -119,7 +119,11 @@ export default {
     computed: {
         // propiedades computadas que dependen de otras propiedades reactivas
         listacontactosComputada(){
-            return this.contactos.filter(item => item.name.toLowerCase().includes(this.textobuscar.toLowerCase())||item.email.toLowerCase().includes(this.textobuscar.toLowerCase()));
+            const contains = (str, term) => str.toLowerCase().includes(term.toLowerCase());
+
+		    return this.contactos.filter((item) => {
+			    return contains(item.name, this.textobuscar) || contains(item.email, this.textobuscar);
+            });
         } 
     },
     props: {
