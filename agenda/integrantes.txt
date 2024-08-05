@@ -40,7 +40,7 @@ P.d.: Para generar más contactos para la BASE DE DATOS, puede utilizar el recur
     [
         '{{repeat(1, 100)}}',
         {
-            ID: '{{index() +1 }}',
+            ID: '{{index() +1 }}', ## change "+1" value to "+#", for example if your database ends on ID: 10 object, you should change this code to "+11" so new generated objects will start with "ID": 11 .
             name: '{{firstName()}} {{surname()}}',
             email: '{{email()}}',
             address: '{{integer(100, 999)}} {{street()}}',
