@@ -51,3 +51,9 @@ P.d.: Para generar más contactos para la BASE DE DATOS, puede utilizar el recur
     ]
 
     Y presionar el botón GENERATE
+
+    Para minimizar saltos de línea y copiar los objetos por filas, utilizar el siguiente recurso:
+
+    https://jsonformatter.org/
+
+    Copiar el json obtenido previamente, y seleccionar la opción Minify/Compact.
