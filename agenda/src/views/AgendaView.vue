@@ -2,8 +2,9 @@
     <div>
         <h1>{{ titulo }}</h1>
         <div class="filtro">
-            Buscar por nombre o correo electrónico (Search by name or email): <input type="search" v-model="textobuscar">
+            Buscar por nombre o correo electrónico (Search by name or email): <input type="search" v-model="textobuscar"> 
         </div>
+        <br>
         <table>
             <thead>
                 <tr>
@@ -138,15 +139,28 @@ h1 {
     color: #42b983;
 }
 table {
-    width: 100%;
-    border-collapse: collapse;
+    //width: 100%;
+    //border-collapse: collapse;
+    table-layout:fixed;
 }
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+th, td, tr {
+    //border: 1px solid #ddd;
+    //padding: 8px;
+    width:1px;
+    white-space:nowrap;
+    text-align: left;
 }
 th {
     background-color: #f2f2f2;
+
+}
+
+h1 {
+    background-color: #f2f2f2;
     text-align: left;
+}
+
+.filtro {
+  text-align: left;
 }
 </style>
